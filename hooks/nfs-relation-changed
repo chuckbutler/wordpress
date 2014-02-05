@@ -16,7 +16,7 @@ if [ -z "$fstype" ] ; then
 fi
 
 if [ ! -z "$options" ]; then
-    options="-o $options"
+    options="-o\ $options"
 fi
 
 # Write this out to our .nfs-mount file
